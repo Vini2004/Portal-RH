@@ -15,14 +15,24 @@
 <body>
     <nav class="navbar bg-body-tertiary">
         <form class="container-fluid justify-content-evenly">
-            <button class="btn btn-sm btn-outline-secondary" type="button"
-                onclick="redirecionarParaHome()">Home</button>
-            <button class="btn btn-sm btn-outline-secondary" type="button" onclick="redirecionarParaSalario()">Sálario
-                Liquido</button>
-            <button class="btn btn-sm btn-outline-secondary" type="button"
-                onclick="redirecionarParaFerias()">Férias</button>
-            <button class="btn btn-sm btn-outline-secondary" type="button"
-                onclick="redirecionarParaRecisao()">Recisão</button>
+
+            <input type="checkbox" class="btn-check" id="btn-check-1-outlined" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="btn-check-1-outlined"
+                onclick="redirecionarParaHome()">Home</label>
+
+            <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="btn-check-4-outlined"
+                onclick="redirecionarParaSalario()">Sálario
+                Liquido</label>
+
+            <input type="checkbox" class="btn-check" id="btn-check-4-outlined" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="btn-check-4-outlined"
+                onclick="redirecionarParaFerias()">Férias</label>
+
+            <input type="checkbox" class="btn-check" id="btn-check-4-outlined" checked autocomplete="off">
+            <label class="btn btn-outline-secondary" for="btn-check-4-outlined"
+                onclick="redirecionarParaRecisao()">Recisão</label>
+
         </form>
     </nav>
     <div class="d-flex justify-content-center p-2">
